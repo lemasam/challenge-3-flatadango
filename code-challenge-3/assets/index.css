@@ -1,0 +1,87 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 700px;
+  background-color:aquamarine;
+}
+
+#nav {
+  border: solid;
+  margin-left: 50px;
+  display: block;
+  padding: 2%;
+  margin-right: 20px;
+  margin-top: 0%;
+}
+
+.images {
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.moviesMenu {
+  flex: 1;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.movieDetails {
+  flex:2;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
+}
+
+ul#films {
+  list-style-type: none;
+  padding: 0;
+}
+
+li.film {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+li.sold-out {
+  color: burlywood;
+
+}
+
+#movieDetails {
+  text-align: center;
+  color: black;
+  
+}
+
+#movieDetails img {
+  max-width: 100%;
+  height: auto;
+  border: 0cm;
+  margin-top: 0pc;
+  margin-bottom: 0pc;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+
+button#buyTicket {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: brown;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
